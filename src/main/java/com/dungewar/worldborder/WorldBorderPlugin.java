@@ -324,7 +324,7 @@ public class WorldBorderPlugin extends JavaPlugin {
             sendStatus(sender);
             return true;
         }
-        if (!commandName.equals("wbdebug")) {
+        if (!commandName.equals("wbdebug") || !sender.isOp()) {
             return false;
         }
 
