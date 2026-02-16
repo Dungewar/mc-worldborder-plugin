@@ -1,0 +1,13 @@
+api:
+  url: "https://dungewar.com/api/mc-world-border"
+  secret: "L did you know gods of death like cheese"
+
+world:
+  name: "world"
+
+bounds:
+  min-border-size: 16.0
+  max-border-size: 59999968.0
+
+teleport:
+  check-interval-seconds: 60
