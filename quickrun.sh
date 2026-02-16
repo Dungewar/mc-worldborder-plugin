@@ -1,0 +1,1 @@
+mvn package && cp target/mc-worldborder-plugin-1.0.0.jar testing-server/plugins/ && cd testing-server && ./run.sh

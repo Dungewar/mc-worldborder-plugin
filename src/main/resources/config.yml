@@ -9,5 +9,9 @@ bounds:
   min-border-size: 16.0
   max-border-size: 59999968.0
 
+timing:
+  min-minutes: 1.0
+  max-minutes: 720.0
+
 teleport:
-  check-interval-seconds: 60
+  check-interval-ticks: 20

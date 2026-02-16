@@ -4,3 +4,19 @@ main: com.dungewar.worldborder.WorldBorderPlugin
 api-version: '1.21'
 authors: [dungewar]
 description: Randomly changes the world border over time and reports updates.
+commands:
+  wbdebug:
+    description: Toggle world border debug mode (immediate + 20-60s cycles).
+    usage: /wbdebug
+    permission: mcworldborder.debug
+  wbstatus:
+    description: Show current world border cycle status.
+    usage: /wbstatus
+    permission: mcworldborder.status
+permissions:
+  mcworldborder.debug:
+    description: Allows toggling world border debug mode.
+    default: op
+  mcworldborder.status:
+    description: Allows checking world border status.
+    default: true
