@@ -64,7 +64,7 @@ public class WorldBorderPlugin extends JavaPlugin {
         int durationHours = ThreadLocalRandom.current().nextInt(MIN_HOURS, MAX_HOURS + 1);
         long durationSeconds = durationHours * 3600L;
 
-        border.setSize(targetSize, durationSeconds);
+        border.changeSize(targetSize, durationSeconds);
         enforcePlayersInBounds(world, border);
 
         sendBorderUpdate(oldSize, targetSize, durationSeconds);
